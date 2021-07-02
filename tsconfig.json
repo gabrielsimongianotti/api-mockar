@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "baseUrl": "./src",
+    "allowJs": true,
+    "lib":[
+      "ESNext.String"
+    ],
+    "paths": {
+      "@container/*": ["container/*"],
+      "@controller/*": ["controller/*"],
+      "@dtos/*": ["dtos/*"],
+      "@entities/*": ["entities/*"],
+      "@repositories/*": ["repositories/*"],
+      "@services/*": ["services/*"],
+      "@erros/*": ["erros/*"],
+      "@middlewares/*": ["middlewares/*"],
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
